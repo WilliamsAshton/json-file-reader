@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+Welcome to my JSON File Reader application.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was built using React + Vite in order to render in the necassary JSON files with an Axios AJAX call.
 
-Currently, two official plugins are available:
+Getting Started:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Please ensure that you have Node.js installed on your local machine in order to be able to run the commands needed for the package installations.
 
-## Expanding the ESLint configuration
+Installation Instructions:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Navigate to the projects file directory in your terminal after you have pulled this repo onto your local machine.
 
-- Configure the top-level `parserOptions` property like this:
+2. Run the command "npm install" in order to install all packages.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. Once all the packages have been installed, run "npm run dev" in the terminal in order to start the application.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+4. The application starts on your default port, in most cases this is "http://localhost:3000/". However, if you are unable to access it on port 3000, you are notified in the terminal after you run the "npm run dev" command.
